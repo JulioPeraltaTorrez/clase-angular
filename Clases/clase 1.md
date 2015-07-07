@@ -20,6 +20,8 @@ Para establecer un enlace bidireccional de datos entre la vista y el controlador
 
 - `ng-model`: define un modelo.
 
+[Ejemplo del modelo-vista-controlador](../Ejemplos/clase 1/Index.html)
+
 ## ¿Que es Data-binding?
 
 Data binding es un mecanismo mediante el cual podemos enlazar los elementos de la interfaz de usuario con los objetos que contienen la información a mostrar. El caso más típico de data binding es el enlazar un control de la interfaz de usuario con un valor o registro de una base de datos.
