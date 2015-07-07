@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<script src="../lib/angular.min.js"></script>
+</head>
+<body>
+	<section ng-app>
+		<h2>Escriba:</h2>
+		<hr>
+		<label>Palabra:
+			<input type="text" placeholder="palabra" ng-model="palabra">
+		</label>
+
+		<br>
+		<label>Color:
+			<input type="text" placeholder="color" ng-model="color">
+		</label>
+		<br>
+		<label>Tamaño:
+			<input type="text" placeholder="tamano" ng-model="tamano">
+		</label>
+		<hr>
+		<p><font color="{{color}}" size="{{tamano}}">{{palabra}}</font></p>
+	</section>
+</body>
+</html>
