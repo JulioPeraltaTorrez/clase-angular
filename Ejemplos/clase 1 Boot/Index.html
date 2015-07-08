@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <script src="../lib/angular/angular.min.js"></script>
+  <link rel="stylesheet" href="../lib/bootstrap-3.3.5/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body class="container" ng-app>
+  <h2>Escriba:</h2>
+  <hr>
+  <form>
+    <div class="form-group">
+      <label>Palabra:</label>
+      <input type="text" class="form-control" placeholder="palabra" ng-model="palabra">
+    </div>
+    <div class="form-group">
+      <label>Color:</label>
+      <input type="text" class="form-control" placeholder="color" ng-model="color">
+    </div>
+    <div class="form-group">
+      <label>Tamaño:</label>
+      <input type="text" class="form-control" placeholder="tamano" ng-model="tamano">
+    </div>
+  </form>
+  <hr>
+  <p class="btn-lg bg-primary">
+    <font color="{{color}}" size="{{tamano}}">{{palabra}}</font>
+  </p>
+</body>
+</html>

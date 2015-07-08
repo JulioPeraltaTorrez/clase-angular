@@ -4,7 +4,7 @@ Clase impartida los jueves en el Grupo NI11A – Ingeniería para web
 
 # Angularjs
 
-version - 1.3.16
+version - 1.4 (Estable)
 
 ## Indice
 
